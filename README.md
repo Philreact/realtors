@@ -1,3 +1,19 @@
+
+Here is the link to the Docker Image : https://hub.docker.com/r/philliplangmartinez/realtors
+
+Instructions: 
+Either:
+1.pull from Docker Hub: docker pull philliplangmartinez/realtors
+and then docker run -it -p 3000:3000 philliplangmartinez/realtors
+
+or
+
+2. Clone from Github. 
+build within directory: # docker build -t myDockerId/imageName .
+run -it -p port:port myDockerId/imageName
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
